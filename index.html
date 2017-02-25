@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="this.css">
+    <meta charset="UTF-8">
+    <title>JQuery CSS3 Interactive Table</title>
+</head>
+
+<body>
+
+    <div>
+        <table cellspacing="0">
+            <thead>
+                <tr>
+                    <th><span>Name</span></th>
+                    <th><span>Model</span></th>
+                    <th><span>Year</span></th>
+                    <th><span>Price</span></th>
+                    <th><span>Color</span></th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>D-099</td>
+                    <td>BMW</td>
+                    <td>2015</td>
+                    <td>16.350$</td>
+                    <td>Red</td>
+                </tr>
+
+                <tr>
+                    <td>X-021</td>
+                    <td>Cadillac</td>
+                    <td>2017</td>
+                    <td>56.350$</td>
+                    <td>Black</td>
+                </tr>
+                <tr>
+                    <td>Z-089</td>
+                    <td>TESLA</td>
+                    <td>2016</td>
+                    <td>72.200$</td>
+                    <td>Silver</td>
+                </tr>
+                <tr>
+                    <td>R-065</td>
+                    <td>Mercedes</td>
+                    <td>2017</td>
+                    <td>34.210$</td>
+                    <td>White</td>
+                </tr>
+
+                <tr id="inputs">
+                    <td><input type="text" placeholder="Name" name="name"></td>
+                    <td><input type="text" placeholder="Model" name="model"></td>
+                    <td><input type="text" placeholder="Year" name="year"></td>
+                    <td><input type="text" placeholder="Price" name="price"></td>
+                    <td><input type="text" placeholder="Color" name="color" style="position: relative"></td>
+                    <td id="add">Add New Item</td>
+                    <td id="remove">Remove</td>
+                </tr>
+            </tbody>
+
+        </table>
+
+    </div>
+    <div id="scroll">
+        <p>Select any row then Click 'Remove' to delete it.</p>
+        <p>Click 'Add new item' after typing the values.</p>
+        <p>By <a href="http://codepen.io/muhammadj">MJ</a>, also on <a href="https://github.com/ImSolitude">GitHub</a>.</p>
+    </div>
+<script src="https://code.jquery.com/jquery-3.1.1.min.jsjquery-3.1.1.min.js"></script>
+<script src="this.js"></script>
+</body>
+
+</html>
