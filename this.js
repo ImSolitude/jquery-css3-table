@@ -71,7 +71,7 @@ $(document).ready(function() {
             $price.val('');
             $color.val('');
             $name.focus();
-            console.log('added');
+            console.log('master');
         }
 
     });
