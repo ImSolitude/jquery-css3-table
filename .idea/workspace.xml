@@ -31,8 +31,8 @@
       <file leaf-file-name="this.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/this.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+            <state relative-caret-position="398">
+              <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -194,7 +194,7 @@
       <updated>1488131326750</updated>
       <workItem from="1488131328165" duration="1123000" />
       <workItem from="1488408768244" duration="78000" />
-      <workItem from="1488408900149" duration="839000" />
+      <workItem from="1488408900149" duration="979000" />
     </task>
     <task id="LOCAL-00001" summary="Edited from Webstorm">
       <created>1488409452684</created>
@@ -207,7 +207,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2040000" />
+    <option name="totallyTimeSpent" value="2180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="63" y="24" width="1303" height="687" extended-state="6" />
@@ -334,8 +334,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/this.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="64" column="25" lean-forward="true" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="398">
+          <caret line="76" column="7" lean-forward="true" selection-start-line="76" selection-start-column="7" selection-end-line="76" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
