@@ -60,12 +60,19 @@ $(document).ready(function() {
             '</td> <td>' + $price.val() +
             '</td> <td>' + $color.val() + '</td> </tr>',
             $el = $(el);
-        $el.insertBefore('#inputs');
-        $name.val('');
-        $model.val('');
-        $year.val('');
-        $price.val('');
-        $color.val('');
-        $name.focus();
+        if($name.val().trim() === '' || $model.val().trim() === ''
+            || $year.val().trim() === '' || $price.val().trim() === '' || $color.val().trim() === '') {
+            return false;
+        } else {
+            $el.insertBefore('#inputs');
+            $name.val('');
+            $model.val('');
+            $year.val('');
+            $price.val('');
+            $color.val('');
+            $name.focus();
+            console.log('added');
+        }
+
     });
 });
